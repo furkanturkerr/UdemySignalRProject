@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebUI", "SignalRWebU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{C347A137-30D1-437E-A6CC-00E33E6562E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{1B08261A-4937-4579-9271-31BBA510229E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{0BBA28AE-1965-4853-8998-53779B4D9342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{ED1A9318-F341-426A-9313-654CCDA7832F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{C347A137-30D1-437E-A6CC-00E33E6562E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C347A137-30D1-437E-A6CC-00E33E6562E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C347A137-30D1-437E-A6CC-00E33E6562E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B08261A-4937-4579-9271-31BBA510229E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B08261A-4937-4579-9271-31BBA510229E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B08261A-4937-4579-9271-31BBA510229E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B08261A-4937-4579-9271-31BBA510229E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBA28AE-1965-4853-8998-53779B4D9342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBA28AE-1965-4853-8998-53779B4D9342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBA28AE-1965-4853-8998-53779B4D9342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBA28AE-1965-4853-8998-53779B4D9342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1A9318-F341-426A-9313-654CCDA7832F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1A9318-F341-426A-9313-654CCDA7832F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1A9318-F341-426A-9313-654CCDA7832F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1A9318-F341-426A-9313-654CCDA7832F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
