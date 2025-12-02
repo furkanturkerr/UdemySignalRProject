@@ -1,0 +1,38 @@
+using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
+using EntityLayer.Entities;
+
+namespace BusinessLayer.Concrate;
+
+public class ProductDalService : IProductService
+{
+    private readonly IProductDal _productDal;
+    public ProductDalService(IProductDal productDal)
+    {
+        _productDal = productDal;
+    }
+    public void TAdd(Product entity)
+    {
+        _productDal.Add(entity);
+    }
+
+    public void TUpdate(Product entity)
+    {
+        _productDal.Update(entity);
+    }
+
+    public void TDelete(Product entity)
+    {
+        _productDal.Delete(entity);
+    }
+
+    public List<Product> TGetListAll()
+    {
+        return _productDal.GetListAll();
+    }
+
+    public Product TGetById(int id)
+    {
+        return _productDal.GetById(id);
+    }
+}
