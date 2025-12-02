@@ -1,4 +1,4 @@
-namespace SignalRApi.Dal.Entities;
+namespace EntityLayer.Entities;
 
 public class Discount
 {
