@@ -1,0 +1,13 @@
+using DataAccessLayer.Abstract;
+using DataAccessLayer.Concrate;
+using DataAccessLayer.Repositories;
+using EntityLayer.Entities;
+
+namespace DataAccessLayer.EntityFramework;
+
+public class EfContactDal : GenericRepository<Contact>, IContactDal
+{
+    public EfContactDal(SignalRContext context) : base(context)
+    {
+    }
+}
