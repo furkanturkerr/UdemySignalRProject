@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRApi", "SignalRApi\SignalRApi.csproj", "{51DE60E1-CE7E-446F-8760-49473D22A54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRWebUI", "SignalRWebUI\SignalRWebUI.csproj", "{31D6AA5C-00E8-4C6C-B6C1-450C5DBE3618}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51DE60E1-CE7E-446F-8760-49473D22A54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DE60E1-CE7E-446F-8760-49473D22A54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DE60E1-CE7E-446F-8760-49473D22A54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DE60E1-CE7E-446F-8760-49473D22A54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D6AA5C-00E8-4C6C-B6C1-450C5DBE3618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D6AA5C-00E8-4C6C-B6C1-450C5DBE3618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D6AA5C-00E8-4C6C-B6C1-450C5DBE3618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D6AA5C-00E8-4C6C-B6C1-450C5DBE3618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
