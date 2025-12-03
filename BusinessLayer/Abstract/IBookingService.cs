@@ -1,4 +1,5 @@
-using SignalRApi.Dal.Entities;
+
+using EntityLayer.Entities;
 
 namespace BusinessLayer.Abstract;
 

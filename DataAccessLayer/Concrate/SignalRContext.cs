@@ -1,6 +1,5 @@
 using EntityLayer.Entities;
 using Microsoft.EntityFrameworkCore;
-using SignalRApi.Dal.Entities;
 
 namespace DataAccessLayer.Concrate;
 

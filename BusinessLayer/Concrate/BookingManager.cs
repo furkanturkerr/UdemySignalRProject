@@ -1,6 +1,6 @@
 using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
-using SignalRApi.Dal.Entities;
+using EntityLayer.Entities;
 
 namespace BusinessLayer.Concrate;
 

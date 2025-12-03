@@ -1,7 +1,7 @@
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrate;
 using DataAccessLayer.Repositories;
-using SignalRApi.Dal.Entities;
+using EntityLayer.Entities;
 
 namespace DataAccessLayer.EntityFramework;
 
