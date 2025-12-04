@@ -1,3 +1,4 @@
+using System.Reflection;
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrate;
 using DataAccessLayer.Abstract;
@@ -7,10 +8,15 @@ using DataAccessLayer.EntityFramework;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SignalRContext>();
+
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
 builder.Services.AddScoped<IAboutService, AboutManager>();
 builder.Services.AddScoped<IAboutDal, EfAaboutDal>();
 builder.Services.AddScoped<IBookingService, BookingManager>();
 builder.Services.AddScoped<IBookingDal, EfBookingDal>();
+builder.Services.AddScoped<ICategoryService, CategoryManager>();
+builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
