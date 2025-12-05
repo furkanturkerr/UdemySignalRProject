@@ -4,10 +4,10 @@ using EntityLayer.Entities;
 
 namespace BusinessLayer.Concrate;
 
-public class ProductDalService : IProductService
+public class ProductManager : IProductService
 {
     private readonly IProductDal _productDal;
-    public ProductDalService(IProductDal productDal)
+    public ProductManager(IProductDal productDal)
     {
         _productDal = productDal;
     }
