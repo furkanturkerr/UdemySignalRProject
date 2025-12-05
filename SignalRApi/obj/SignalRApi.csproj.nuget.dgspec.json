@@ -88,6 +88,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/DTOLayer.csproj": {
+                "projectPath": "/Users/furkanturker/RiderProjects/UdemySignalRProject/DTOLayer/DTOLayer.csproj"
+              },
               "/Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/EntityLayer.csproj": {
                 "projectPath": "/Users/furkanturker/RiderProjects/UdemySignalRProject/EntityLayer/EntityLayer.csproj"
               }
