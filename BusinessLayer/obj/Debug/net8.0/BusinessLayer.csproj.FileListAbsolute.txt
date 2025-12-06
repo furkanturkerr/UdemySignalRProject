@@ -16,3 +16,5 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/BusinessLayer/obj/Debug/net8.0/refint/BusinessLayer.dll
 /Users/furkanturker/RiderProjects/UdemySignalRProject/BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb
 /Users/furkanturker/RiderProjects/UdemySignalRProject/BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/BusinessLayer/bin/Debug/net8.0/DTOLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/BusinessLayer/bin/Debug/net8.0/DTOLayer.pdb

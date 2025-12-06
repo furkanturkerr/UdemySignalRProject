@@ -16,3 +16,5 @@
 /Users/furkanturker/RiderProjects/UdemySignalRProject/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.pdb
 /Users/furkanturker/RiderProjects/UdemySignalRProject/DataAccessLayer/obj/Debug/net8.0/DataAccessLayer.genruntimeconfig.cache
 /Users/furkanturker/RiderProjects/UdemySignalRProject/DataAccessLayer/obj/Debug/net8.0/ref/DataAccessLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/DataAccessLayer/bin/Debug/net8.0/DTOLayer.dll
+/Users/furkanturker/RiderProjects/UdemySignalRProject/DataAccessLayer/bin/Debug/net8.0/DTOLayer.pdb
